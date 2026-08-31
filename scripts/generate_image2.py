@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate images through the user's configured QS Image 2 gateway."""
+"""通过用户配置的 QS Image 2 网关生成图片。"""
 
 from __future__ import annotations
 
@@ -256,7 +256,7 @@ def read_prompt(args: argparse.Namespace) -> str:
 
 
 def build_parser() -> argparse.ArgumentParser:
-    parser = argparse.ArgumentParser(description="Generate images through the configured QS Image 2 gateway")
+    parser = argparse.ArgumentParser(description="通过配置好的 QS Image 2 网关生成图片")
     parser.add_argument("--prompt", help="Image prompt")
     parser.add_argument("--prompt-file", help="Read the prompt from a UTF-8 text file")
     parser.add_argument("--model", default="gpt-image-2", help="Image model to use")
