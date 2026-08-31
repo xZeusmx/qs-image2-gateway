@@ -1,7 +1,7 @@
 interface:
   display_name: "QS Image2 Gateway"
-  short_description: "Generate images via your QS Image 2 gateway"
+  short_description: "通过你的 QS Image 2 网关生成图片"
   brand_color: "#2563EB"
-  default_prompt: "Use $qs-image2-gateway to generate an image of a clean product concept."
+  default_prompt: "使用 $qs-image2-gateway 生成一张干净高级的产品概念图。"
 policy:
   allow_implicit_invocation: true
