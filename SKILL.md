@@ -1,8 +1,8 @@
 ---
 name: qs-image2-gateway
-description: "Use when the user asks to generate images with Codex, including 生图, 生成图片, 画图, 文生图, Image 2, gpt-image-2, or image generation. Generates images through the user's configured QS Image 2 gateway using auth.json and config.toml."
+description: "当用户在 Codex 中要求生图、生成图片、画图、文生图，或提到 Image 2、gpt-image-2、image generation 时使用。通过用户本地 auth.json 和 config.toml 中配置的 QS Image 2 网关生成图片。"
 metadata:
-  short-description: "Generate images through the QS Image 2 gateway"
+  short-description: "通过 QS Image 2 网关生成图片"
 ---
 
 # QS Image2 Gateway
